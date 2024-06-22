@@ -70,7 +70,7 @@ import './Navbar.css'
             <img src={profile_img} alt="" srcset="" className='profile' />
             <img src={caret_icon} alt="" srcset=""  />
 <div className="dropdown">
-<button onClick={() => loginWithRedirect()}>Sign Out Of Netflix</button>
+<Link to='./'>Sign Out Of Netflix</Link>
 </div>
          </div>
         </div>
