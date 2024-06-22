@@ -55,7 +55,7 @@ useEffect(()=>{
         <div className="card-list" ref={cardsRef}>
           
             {movies.map((card,index)=>{
-return <Link to={`player/0`} className='card'key={index}> <img src={card.Poster} alt="" /> 
+return <Link to={`/player`} className='card'key={index}> <img src={card.Poster} alt="" /> 
 <p>{card.Title}</p></Link>
             
             })}
