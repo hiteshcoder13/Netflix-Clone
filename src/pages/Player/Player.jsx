@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Player() {
   return (
     <div className='player'>
-     <Link to={'/'}> <img src={back_arrow_icon} alt="" srcset="" /></Link>
+     <Link to={'/Home'}> <img src={back_arrow_icon} alt="" srcset="" /></Link>
       <iframe src='https://www.youtube.com/embed/ePO5M5DE01I' frameborder="0" width='90%' height='90%' title='trailer' frameBorder='0' allowFullScreen></iframe>
       <div className="player-info">
         <p>Published Date:</p>
