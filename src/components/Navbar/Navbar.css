@@ -97,4 +97,10 @@ align-items: center;
     opacity: 1;
     left: 30px;
 }
+#signout{
+color: white;
+    background-color:black;
+    border-radius:4px;
 
+    
+}
