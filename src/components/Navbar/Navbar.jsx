@@ -71,7 +71,7 @@ import { Link } from 'react-router-dom'
             <img src={profile_img} alt="" srcset="" className='profile' />
             <img src={caret_icon} alt="" srcset=""  />
 <div className="dropdown">
-<Link to={'/'}>Sign Out</Link>
+<Link to={'/'} id='signout'>Sign Out</Link>
 </div>
          </div>
         </div>
